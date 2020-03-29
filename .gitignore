@@ -1,0 +1,24 @@
+.jekyll-metadata
+.jekyll-cache
+_site
+Gemfile.lock
+
+# Eclipse
+.project
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/*
+*.code-workspace
+
+# Ruby bundle
+.bundle/
+vendor/
+
+# MacOS
+.DS_Store
+
+# common editor backups
+*~
