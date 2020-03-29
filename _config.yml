@@ -1,0 +1,23 @@
+name: The PHENIX website
+description: The website of the EICUG
+url: http://eicug.org
+
+excerpt_separator: <!--more-->
+timezone: America/New_York
+highlighter: rouge
+
+markdown: kramdown
+future: true
+exclude: [vendor]
+
+# !!! Important as we are not serving from the top folder !!!
+baseurl: /web
+
+plugins:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-redirect-from
+collections:
+  people:
+    output: true
+    permalink: /people/:title.html
