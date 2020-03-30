@@ -25,6 +25,9 @@ collections:
   eicug:
     output: true
     permalink: /eicug/:title.html
+  software:
+    output: true
+    permalink: /software/:title.html
   about:
     output: true
     permalink: /about/:title.html
