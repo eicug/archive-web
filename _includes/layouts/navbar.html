@@ -12,9 +12,14 @@
               <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
             </li>
 	    {% include layouts/autodrop.md title='EICUG' what=site.eicug %}
+	    {% include layouts/autodrop.md title='About' what=site.about %}
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
+	  </ul>
+	  <ul class="navbar-nav mr-auto text-right">
+	    {% include layouts/autodrop.md title='About'	what=site.about %}
+
 	  </ul>
 	</div>
       </nav>

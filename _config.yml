@@ -25,3 +25,6 @@ collections:
   eicug:
     output: true
     permalink: /eicug/:title.html
+  about:
+    output: true
+    permalink: /about/:title.html
