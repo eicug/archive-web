@@ -22,9 +22,12 @@ collections:
   people:
     output: true
     permalink: /people/:title.html
-  eicug:
+  eic:
     output: true
-    permalink: /eicug/:title.html
+    permalink: /eic/:title.html
+  ug:
+    output: true
+    permalink: /ug/:title.html
   software:
     output: true
     permalink: /software/:title.html
