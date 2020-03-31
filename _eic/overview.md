@@ -1,15 +1,9 @@
 ---
-title: EICUG Overview
-abbrev: overview
+title: EIC Webite
+abbrev: eic
 layout: default
+link: https://www.bnl.gov/eic/
 level: 0
 weight: 0
 ---
-&nbsp;<br/>
-&nbsp;<br/>
-&nbsp;<br/>
-&nbsp;<br/>
-&nbsp;<br/>
-
-<h3>Overview</h3>
 

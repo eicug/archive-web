@@ -8,7 +8,15 @@
 {% if item.level != 0  %}{% continue %}{% endif %}
 {% if item.div %}<div class="dropdown-divider"></div>{% endif %}
 
-<a class="dropdown-item" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+{% if item.link %}
+{% assign theLink=item.link %}
+{% assign target='target="_blank"' %}
+{% else %}
+{% assign theLink=item.url | relative_url %}
+{% assign target='' %}
+{% endif %}
+
+<a class="dropdown-item" href="{{ theLink }}" {{ target }}>{{ item.title }}</a>
 {% endfor %}
 </div>
 </li>
