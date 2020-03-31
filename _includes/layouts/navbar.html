@@ -1,22 +1,22 @@
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/site/EIClogo_small.png' | relative_url }}" height="25" width="25"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 	
-	<a class="navbar-brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/site/EIClogo_small.png' | relative_url }}" height="25" width="25"></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-	  <span class="navbar-toggler-icon"></span>
-	</button>
-	
-	<div class="collapse navbar-collapse" id="navbarCollapse">
-	  <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
-            </li>
-	    {% include layouts/autodrop.md title='EICUG' what=site.eicug %}
-	    {% include layouts/autodrop.md title='Software' what=site.software %}
-	  </ul>
-	  <ul class="navbar-nav mr-auto text-right">
-	    {% include layouts/autodrop.md title='About'	what=site.about %}
-
-	  </ul>
-	</div>
-      </nav>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+	<li class="nav-item active">
+          <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+	</li>
+	{% include layouts/autodrop.md title='EICUG' what=site.eicug %}
+	{% include layouts/autodrop.md title='Software' what=site.software %}
+      </ul>
+      <ul class="navbar-nav mr-auto text-right">
+	{% include layouts/autodrop.md title='About'	what=site.about %}
+      </ul>
+    </div>
+  </div>
+</nav>
